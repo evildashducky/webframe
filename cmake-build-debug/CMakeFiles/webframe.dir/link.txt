@@ -1,0 +1,1 @@
+C:/Users/Chen/.platformio/packages/toolchain-xtensa/bin/xtensa-lx106-elf-g++.exe  -g  -Wl,--enable-auto-import CMakeFiles/webframe.dir/C_/webframe/src/DisplayPixelsText.cpp.o CMakeFiles/webframe.dir/C_/webframe/src/WebPixelFrame.cpp.o  -o webframe.exe -Wl,--out-implib,libwebframe.dll.a -Wl,--major-image-version,0,--minor-image-version,0  

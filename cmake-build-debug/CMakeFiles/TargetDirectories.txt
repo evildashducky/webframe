@@ -1,0 +1,11 @@
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_BUILD.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/webframe.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOAD.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_CLEAN.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_PROGRAM.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/edit_cache.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_TEST.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_UPLOADFS.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_REBUILD_PROJECT_INDEX.dir
+/cygdrive/c/webframe/cmake-build-debug/CMakeFiles/PLATFORMIO_UPDATE_ALL.dir

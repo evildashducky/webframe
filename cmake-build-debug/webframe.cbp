@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="webframe"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_BUILD">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_BUILD"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="webframe">
+				<Option output="/cygdrive/c/webframe/cmake-build-debug/webframe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO=20300"/>
+					<Add option="-DLWIP_OPEN_SRC"/>
+					<Add option="-DF_CPU=80000000L"/>
+					<Add option="-D__ets__"/>
+					<Add option="-DICACHE_FLASH"/>
+					<Add option="-DPLATFORMIO=30300"/>
+					<Add option="-DESP8266"/>
+					<Add option="-DARDUINO_ARCH_ESP8266"/>
+					<Add option="-DESP8266_WEMOS_D1MINI"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini"/>
+					<Add directory="C:/webframe/.piolibdeps/ESP8266wifi_ID1101"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
+					<Add directory="C:/webframe/.piolibdeps/ESPAsyncTCP_ID305/src"/>
+					<Add directory="C:/webframe/.piolibdeps/ESPAsyncWebServer_ID306/src"/>
+					<Add directory="C:/webframe/.piolibdeps/NTPClient_ID551"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
+					<Add directory="C:/webframe/.piolibdeps/NeoPixelBus_ID547/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
+					<Add directory="C:/webframe/src"/>
+					<Add directory="C:/webframe/lib/ESPAsyncWiFiManager-webframepixel/src"/>
+					<Add directory="C:/webframe/.piolibdeps/ESPAsyncWifiManager_ID1438"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Wire"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 webframe"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="webframe/fast">
+				<Option output="/cygdrive/c/webframe/cmake-build-debug/webframe.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DARDUINO=20300"/>
+					<Add option="-DLWIP_OPEN_SRC"/>
+					<Add option="-DF_CPU=80000000L"/>
+					<Add option="-D__ets__"/>
+					<Add option="-DICACHE_FLASH"/>
+					<Add option="-DPLATFORMIO=30300"/>
+					<Add option="-DESP8266"/>
+					<Add option="-DARDUINO_ARCH_ESP8266"/>
+					<Add option="-DESP8266_WEMOS_D1MINI"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/tools/sdk/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/tools/sdk/lwip/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/cores/esp8266"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/variants/d1_mini"/>
+					<Add directory="C:/webframe/.piolibdeps/ESP8266wifi_ID1101"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFi/src"/>
+					<Add directory="C:/webframe/.piolibdeps/ESPAsyncTCP_ID305/src"/>
+					<Add directory="C:/webframe/.piolibdeps/ESPAsyncWebServer_ID306/src"/>
+					<Add directory="C:/webframe/.piolibdeps/NTPClient_ID551"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266mDNS"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ArduinoOTA"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/SPI"/>
+					<Add directory="C:/webframe/.piolibdeps/NeoPixelBus_ID547/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/DNSServer/src"/>
+					<Add directory="C:/webframe/src"/>
+					<Add directory="C:/webframe/lib/ESPAsyncWiFiManager-webframepixel/src"/>
+					<Add directory="C:/webframe/.piolibdeps/ESPAsyncWifiManager_ID1438"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/EEPROM"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266AVRISP/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPClient/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266HTTPUpdateServer/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266SSDP"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WebServer/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266WiFiMesh/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/ESP8266httpUpdate/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Ethernet/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/GDBStub/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Hash/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/SD/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Servo/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/SoftwareSerial"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/TFT_Touch_Shield_V2"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Ticker"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/Wire"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/framework-arduinoespressif8266/libraries/esp8266/src"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/toolchain-xtensa/xtensa-lx106-elf/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include"/>
+					<Add directory="C:/Users/Chen/.platformio/packages/toolchain-xtensa/lib/gcc/xtensa-lx106-elf/4.8.2/include-fixed"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/x86_64-pc-cygwin"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include/c++/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-cygwin/5.4.0/../../../../lib/../include/w32api"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 webframe/fast"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOAD">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOAD"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_CLEAN">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_CLEAN"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_PROGRAM">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_PROGRAM"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_TEST">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_TEST"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPLOADFS">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPLOADFS"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_REBUILD_PROJECT_INDEX">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_REBUILD_PROJECT_INDEX"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="PLATFORMIO_UPDATE_ALL">
+				<Option working_dir="/cygdrive/c/webframe/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 PLATFORMIO_UPDATE_ALL"/>
+					<CompileFile command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make.exe -j8 -f &quot;/cygdrive/c/webframe/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/webframe/src/C64FontLower.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/C64FontUpper.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/DisplayPixels.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/DisplayPixelsAnimatedGIF.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/DisplayPixelsLive.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/DisplayPixelsText.cpp">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/DisplayPixelsText.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/GifPlayer.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/NewBitmap.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/WebPixelFrame.cpp">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="C:/webframe/src/font5x7.h">
+			<Option target="webframe"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/webframe/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/cygdrive/c/webframe/CMakeListsPrivate.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
